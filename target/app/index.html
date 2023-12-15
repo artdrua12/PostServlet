@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My time project!</title>
+  </head>
+  <body>
+    <div>
+    <h2>
+        Получается html страничка (где мы вводим логин/пароль)->servlet (забирает данные) -> jsp (для вывода ответа на экран: Привет, Петя (имя брать из параметров)) 
+        если логин = "Петя" и пароль = 1234 -> и другой jsp (для вывода доступ запрещен)
+    </h2>
+    <h3>Привильное значение Peter 1234</h3>
+    <form method="post" action="/app/permition">
+      <label>Name: <input type="text" name="name" /> </label>
+      <label>Password: <input type="text" name="password" /> </label>
+      <button type="submit">Check</button>
+    </form>
+  </body>
+</html>
